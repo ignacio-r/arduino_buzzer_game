@@ -9,7 +9,6 @@ const router = Router();
 router.post('/prender', (req, res) => {
     port.write('B');
     res.send("OK");
-    console.log("mandar b");
 })
 
 export default router;
