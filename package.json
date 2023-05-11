@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "arduino",
   "main": "arduino_turn_on_off.js",
+  "type": "module",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
     "latest": "^0.2.0",
+    "nodemon": "^2.0.22",
     "serialport": "^11.0.0"
   }
 }

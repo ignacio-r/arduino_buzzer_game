@@ -13,6 +13,8 @@ parser.on('data', console.log)
 // Creating the parser and piping can be shortened to
 // const parser = port.pipe(new ReadlineParser())
 
+
+
 const readline = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout
@@ -22,10 +24,10 @@ const readline = require('readline').createInterface({
   readline.question('prender 1, apagar 0\n', num => {
     while(true){
         if(num == 0){
-            port.write('0')
+            port.write('B')
             readline.close()
         }else if(num == 1){
-            port.write('1')
+            port.write('B')
             readline.close()
         }
     }
