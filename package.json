@@ -1,0 +1,15 @@
+{
+  "name": "arduino",
+  "version": "1.0.0",
+  "description": "arduino",
+  "main": "arduino_turn_on_off.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "latest": "^0.2.0",
+    "serialport": "^11.0.0"
+  }
+}
